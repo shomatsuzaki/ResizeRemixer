@@ -19,8 +19,8 @@ loop8.loop = true;
 loop9.loop = true;
 loop10.loop = true;
 
-var mixerwidth;
-var currwidth;
+var mixerwidth = 1440;
+var currwidth = 1440;
 var shouldPlay = false;
 
 $(document).ready(function() {
