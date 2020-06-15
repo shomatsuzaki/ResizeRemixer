@@ -1,25 +1,25 @@
-$(document).ready(function() {
-	var loop1 = new Audio('audio/loop1.mp3');
-	var loop2 = new Audio('audio/loop2.mp3');
-	var loop3 = new Audio('audio/loop3.mp3');
-	var loop4 = new Audio('audio/loop4.mp3');
-	var loop5 = new Audio('audio/loop5.mp3');
-	var loop6 = new Audio('audio/loop6.mp3');
-	var loop7 = new Audio('audio/loop7.mp3');
-	var loop8 = new Audio('audio/loop8.mp3');
-	var loop9 = new Audio('audio/loop9.mp3');
-	var loop10 = new Audio('audio/loop10.mp3');
-	loop1.loop = true;
-	loop2.loop = true;
-	loop3.loop = true;
-	loop4.loop = true;
-	loop5.loop = true;
-	loop6.loop = true;
-	loop7.loop = true;
-	loop8.loop = true;
-	loop9.loop = true;
-	loop10.loop = true;
+var loop1 = new Audio('audio/loop1.mp3');
+var loop2 = new Audio('audio/loop2.mp3');
+var loop3 = new Audio('audio/loop3.mp3');
+var loop4 = new Audio('audio/loop4.mp3');
+var loop5 = new Audio('audio/loop5.mp3');
+var loop6 = new Audio('audio/loop6.mp3');
+var loop7 = new Audio('audio/loop7.mp3');
+var loop8 = new Audio('audio/loop8.mp3');
+var loop9 = new Audio('audio/loop9.mp3');
+var loop10 = new Audio('audio/loop10.mp3');
+loop1.loop = true;
+loop2.loop = true;
+loop3.loop = true;
+loop4.loop = true;
+loop5.loop = true;
+loop6.loop = true;
+loop7.loop = true;
+loop8.loop = true;
+loop9.loop = true;
+loop10.loop = true;
 
+$(document).ready(function() {
 	var mixerwidth = 1440;
 	var currwidth = 1440;
 	var shouldPlay = false;
@@ -46,7 +46,7 @@ $(document).ready(function() {
 	});
 });
 
-function playloops(mixerwidth, currwidth) {
+function playloops(mixerwidth, currwidth, shouldPlay) {
 	var ratio = currwidth * 100 / mixerwidth;
 	console.log('Screen is at ' + ratio + '% of mixer width.');
 
