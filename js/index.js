@@ -48,6 +48,7 @@ $(document).ready(function() {
 
 function playloops(mixerwidth, currwidth, shouldPlay) {
 	var ratio = currwidth * 100 / mixerwidth;
+	console.log('Mixer width is ' + mixerwidth);
 	console.log('Screen is at ' + ratio + '% of mixer width.');
 
 	if (ratio > 92.8) {
