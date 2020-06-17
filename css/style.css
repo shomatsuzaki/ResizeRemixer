@@ -44,7 +44,7 @@ Author: Sho Matsuzaki
 /* BASE STYLES                   
 /*******************************************/
 
-html, body, #container {
+html, body, #container, #slider {
      cursor: pointer;
      overflow: hidden;
 }
@@ -63,6 +63,14 @@ body {
 #container {
 	margin: 0 auto;
      text-align: left;
+}
+
+#slider {
+     cursor: pointer;
+     position: absolute;
+     right: 0;
+     top: 0;
+     z-index: 100;
 }
 
 #remixer {

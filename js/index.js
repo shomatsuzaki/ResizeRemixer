@@ -31,11 +31,12 @@ window.addEventListener('load', function () {
 	}
 
 	var viewheight = window.innerHeight;
-	$('#remixer').css('height', viewheight);
+	$('#remixer').css('height', viewheight);	
+	$('#slider').css('height', viewheight);
 	mixerwidth = $('#remixer').width();
 	currwidth = window.innerWidth;
 
-	$('#remixer').click(function() {
+	$('#slider').click(function() {
 		shouldPlay = !shouldPlay;
 		playloops(mixerwidth, currwidth, shouldPlay);
 	});
