@@ -32,6 +32,7 @@ window.addEventListener('load', function () {
 
 	var viewheight = window.innerHeight;
 	$('#remixer').css('height', viewheight);	
+	$('#CTA').css('height', viewheight);
 	$('#slider').css('height', viewheight);
 	mixerwidth = $('#remixer').width();
 	currwidth = window.innerWidth;
