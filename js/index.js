@@ -19,8 +19,8 @@ loop8.loop = true;
 loop9.loop = true;
 loop10.loop = true;
 
-$(document).ready(function() {
-	var mixerwidth = 1440;
+window.addEventListener('load', function () {
+  	var mixerwidth = 1440;
 	var currwidth = 1440;
 	var shouldPlay = false;
 
